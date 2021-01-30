@@ -1,0 +1,796 @@
+@font-face {
+    font-family: 'Plovdiv Display';
+    src: url("../fonts/PlovdivDisplay-Bold.otf");
+}
+@font-face {
+    font-family: 'Gilroy';
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+@font-face {
+    font-family: 'GilroyBold';
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+
+body {
+    margin: 0;
+}
+
+#main {
+    background-image: url("../images/bg-layer.png");
+    background-position: center;
+    height: 847px;
+}
+
+#header {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+
+#main #header .logo {
+    display: flex;
+    align-items: flex-start;
+}
+
+#main #header .logo svg {
+    width: 38px;
+    height: 38px;
+    fill: rgb(159, 37, 70);
+}
+
+#main #header .logo span {
+    font-size: 30px;
+    font-family: "Plovdiv Display",sans-serif;
+    color: rgb(159, 37, 70);
+    line-height: 27px;
+    padding-left: 10px;
+}
+
+#burger-menu {
+    display: none;
+    font-size: 30px;
+    line-height: 27px;
+    color: rgb(159, 37, 70);
+}
+
+.menu-show {
+    display: block;
+}
+
+#menu-close {
+    display: none;
+}
+
+#main #header #menu {
+    display: flex;
+    flex-wrap: wrap;
+    width: 515px;
+    justify-content: space-between;
+}
+
+#main #header #menu .menu-link {
+    font-size: 18px;
+    font-family: "Gilroy",sans-serif;
+    line-height: 21px;
+}
+
+#main #header #menu .menu-link a {
+    text-decoration: none;
+    color: rgb(58, 4, 19);
+}
+
+.btn-order {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 20px;
+    width: 178px;
+    height: 40px;
+    font-size: 14px;
+    font-family: "GilroyBold", sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.btn-black {
+    color: rgb(58, 4, 19);
+    border-color: rgb(58, 4, 19);
+}
+
+.btn-black:hover {
+    box-shadow: 0 0 7.68px 0.32px rgba(58, 4, 19, 0.2);
+}
+
+#container {
+    width: 1170px;
+    display: flex;
+    margin: 0 auto;
+}
+
+#container #container-block {
+    width: 463px;
+    margin-top: 130px;
+}
+
+#container #container-block h1 {
+    font-size: 45px;
+    font-family: "Plovdiv Display",sans-serif;
+    color: rgb(159, 37, 70);
+}
+
+#container #container-block #container-text {
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 1.278;
+    width: 382px;
+    margin: 60px 0 64px 0;
+}
+
+.btn-pink {
+    background-image: -moz-linear-gradient( 90deg, rgb(159,37,70) 0%, rgb(159,37,70) 0%, rgb(159,37,70) 0%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(159,37,70) 0%, rgb(159,37,70) 0%, rgb(159,37,70) 0%);
+    background-image: -ms-linear-gradient( 90deg, rgb(159,37,70) 0%, rgb(159,37,70) 0%, rgb(159,37,70) 0%);
+    width: 260px;
+    height: 60px;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(254, 254, 254);
+    line-height: 60px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+}
+
+.btn-pink:hover {
+    box-shadow: 0 6px 6.51px 0.49px rgba(159, 37, 70, 0.22);
+    background-image: -moz-linear-gradient( 90deg, rgb(159,37,70) 0%, rgb(197,81,113) 51%, rgb(235,125,156) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(159,37,70) 0%, rgb(197,81,113) 51%, rgb(235,125,156) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(159,37,70) 0%, rgb(197,81,113) 51%, rgb(235,125,156) 100%);
+}
+
+#container #container-img {
+    margin-top: 20px;
+    margin-left: 55px;
+}
+
+#description {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#desription-container {
+    display: flex;
+}
+
+#description-container-img {
+    width: 477px;
+    height: 457px;
+    margin: 100px 140px 50px 80px;
+}
+
+#description-container-text {
+    width: 435px;
+}
+
+#description-container-text-title{
+    font-size: 35px;
+    font-family: "Plovdiv Display", sans-serif;
+    color: rgb(159, 37, 70);
+    margin-top: 170px;
+}
+
+#description-container-text-word {
+    font-size: 14px;
+    font-family: "Gilroy",sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 23px;
+    margin-top: 35px;
+}
+
+#description-prop {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.description-prop-block {
+    width: 190px;
+}
+
+.description-prop-block-title {
+    font-size: 50px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(159, 37, 70);
+}
+
+.description-prop-block-text {
+    font-size: 14px;
+    font-family: "Gilroy",sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 1.357;
+    margin-top: 15px;
+}
+
+h2.block-title {
+    font-size: 35px;
+    font-family: "Plovdiv Display", sans-serif;
+    color: rgb(159, 37, 70);
+    text-align: center;
+}
+
+#providers {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#providers h2.block-title {
+    margin: 115px 0 36px 0;
+}
+
+#providers .providers_text {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 23px;
+    text-align: center;
+    width: 608px;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+#providers #providers-slider {
+    display: flex;
+    width: 1030px;
+    margin: 0 auto;
+}
+
+#providers #providers-slider .provider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/mandala.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+#providers #providers-slider .provider-img {
+    width: 294px;
+    height: 294px;
+    margin: 22px 0 25px 0;
+}
+
+#providers #providers-slider .provider-name {
+    margin: 5px 0 5px 0;
+    font-size: 14px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#providers #providers-slider .provider > span {
+    margin: 5px 0 5px 0;
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#providers .slick-prev:before {
+    content: url("../images/left-arrow.png");
+}
+#providers .slick-next:before {
+    content: url("../images/right-arrow.png");
+}
+#providers .slick-prev {
+    left: -45px;
+    top: 40%;
+}
+
+#providers .slick-next {
+    top: 40%;
+}
+
+#directions {
+    width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#directions h2.block-title {
+    margin: 115px 0 40px 0;
+}
+
+#directions #directions-main {
+    display: flex;
+    justify-content: space-between;
+}
+.direction-img {
+    transition: 0.5s;
+}
+
+.direction-img:hover {
+    transform: scale(1.1);
+
+}
+
+#directions #directions-main .direction .direction-name {
+    margin: 27px 0 17px 0;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#directions #directions-main .direction .direction-price {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#directions #directions-main .direction .direction-price > span {
+    font-size: 30px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#directions .btn-pink {
+    margin-top: 40px;
+    width: 300px;
+    height: 60px;
+}
+
+#halls-container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+#halls-container h2.block-title {
+    margin-top: 115px;
+}
+
+#halls-container #halls {
+    display: flex;
+    justify-content: space-around;
+    background-image: url("../images/hallbg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#halls-container #halls .hall {
+    width: 440px;
+}
+
+#halls-container #halls .hall .hall-img {
+    margin-bottom: 30px;
+}
+
+#halls-container #halls .hall .hall-name {
+    margin-bottom: 25px;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#halls-container #halls .hall .hall-text {
+    margin-bottom: 30px;
+    width: 324px;
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#halls-container .halls-btn {
+    text-align: center;
+}
+
+#map-container{
+    margin-top: 115px;
+}
+
+#map {
+    height: 600px;
+    width: 100%;
+    border: none;
+    position: relative;
+}
+[class*="ymaps-2"][class*="-ground-pane"] {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+#contacts-container {
+    position: absolute;
+    left: auto;
+    right: 65%;
+    z-index: 10;
+}
+
+
+#map-container #contacts-container #contacts {
+    width: 325px;
+    height: 600px;
+    position: relative;
+    padding-left: 50px;
+    background-color: rgb(254, 242, 242);
+}
+
+#map-container #contacts-container #contacts .contact {
+    width: 260px;
+}
+
+#map-container #contacts-container #contacts h2.block-title {
+    display: inline-block;
+    text-align: left;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#map-container #contacts-container #contacts ul {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+#map-container #contacts-container #contacts ul li {
+    position: relative;
+    list-style-type: none;
+    padding: 8px 0 8px 0;
+}
+
+#map-container #contacts-container #contacts ul li::before {
+    position: absolute;
+    right: 195px;
+    margin-top: 6px;
+    content: '';
+    border-radius: 50%;
+    background-color: rgb(159, 37, 70);
+    width: 10px;
+    height: 10px;
+}
+
+#map-container #contacts-container #contacts ul li span {
+    display: inline-block;
+    font-size: 14px;
+    font-family: "Gilroy",sans-serif;
+    color: rgb(58, 4, 19);
+}
+
+#map-container #contacts-container #contacts .social {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+
+.social img:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+#map-container #contacts-container #contacts h3 {
+    display: inline-block;
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+    margin-top: 80px;
+    margin-bottom: 15px;
+}
+
+#map-container #contacts-container #contacts .signup {
+    display: inline-block;
+    width: 260px;
+}
+
+#map-container #contacts-container #contacts form .field {
+    height: 50px;
+}
+
+#map-container #contacts-container #contacts form input {
+    border: none;
+    border-bottom: 1px solid #9F2546;
+    width: 255px;
+    font-size: 14px;
+    font-family: "Gilroy",sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 1.357;
+    text-align: left;
+    padding-bottom: 7px;
+    background-color: rgb(254, 242, 242);
+}
+
+#map-container #contacts-container #contacts form input:focus{
+    outline: none;
+}
+
+#map-container #contacts-container #contacts .btn-pink {
+    margin-top: 20px;
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+}
+
+#footer {
+    display: flex;
+    align-items: center;
+    background-color: #9F2546;
+    height: 150px;
+    color: white;
+}
+
+#footer-container {
+    display: flex;
+    align-items: center;
+    width: 1170px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#footer #footer-container .footer-logo {
+    display: flex;
+}
+
+#footer #footer-container .footer-logo svg {
+    width: 38px;
+    height: 38px;
+    fill: white;
+}
+
+#footer #footer-container .footer-logo span {
+    font-size: 30px;
+    font-family: "Plovdiv Display",sans-serif;
+    padding-left: 10px;
+    line-height: 27px;
+}
+
+#footer #footer-container .footer-privacy {
+    display: flex;
+    width: 450px;
+    justify-content: space-between;
+}
+
+#footer #footer-container .footer-privacy .privacy-title {
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    line-height: 17px;
+}
+
+#footer #footer-container .footer-privacy a.privacy-title {
+    border-bottom: 1px solid white;
+    color: white;
+    text-decoration: none;
+}
+
+#footer #footer-container .footer-number {
+    display: flex;
+}
+
+#footer #footer-container .footer-number .number {
+    display: flex;
+    align-self: center;
+}
+
+#footer #footer-container .footer-number .number span {
+    margin: 0 25px 0 10px;
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    line-height: 23px;
+}
+
+#footer #footer-container .footer-number .number i {
+    font-size: 20px;
+}
+
+#footer #footer-container .footer-number .btn-white {
+    color: white;
+    border-color: white;
+}
+
+#footer #footer-container .footer-number .btn-white:hover {
+    box-shadow: 0 0 7.68px 0.32px rgba(58, 4, 19, 0.3);
+}
+
+#timetable-container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.91);
+    z-index: 99;
+    justify-content: center;
+    display: none;
+    overflow: scroll;
+}
+
+#timetable-container #timetable {
+    position: relative;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+    width: 1012px;
+    height: 749px;
+    z-index: 999;
+}
+
+#timetable-container #timetable #timetable-cancel {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+#timetable-container #timetable #timetable-cancel:hover {
+    cursor: pointer;
+}
+
+#timetable-container #timetable #week-content {
+    display: none;
+}
+
+#timetable-container #timetable .week-container {
+    display: flex;
+}
+
+.week-main {
+    display: inline-block;
+    margin: 0 60px 0 60px;
+}
+
+.week-main .week {
+    font-size: 18px;
+    font-family: "Gilroy", sans-serif;
+    color: rgb(58, 4, 19);
+    margin-bottom: 12px;
+}
+
+.week-main .week:hover {
+    cursor: pointer;
+}
+
+.week-main .active {
+    font-family: "GilroyBold", sans-serif;
+}
+
+#timetable-container #timetable .day {
+    background-color: rgb(254, 242, 242);
+    width: 645px;
+    height: 383px;
+    padding: 0 40px;
+    overflow: hidden;
+}
+
+#tuesday, #wednesday, #thursday, #friday, #saturday, #sunday {
+    display: none;
+}
+
+#timetable-container #timetable .day h3 {
+    font-size: 18px;
+    font-family: "GilroyBold", sans-serif;
+    color: rgb(58, 4, 19);
+    text-align: center;
+    margin: 30px auto;
+}
+
+#timetable-container #timetable .day .table {
+    border-spacing: 0 4px;
+}
+#timetable-container #timetable .day .table .table-line {
+    display: flex;
+    flex-wrap: wrap;
+    width: 643px;
+    font-size: 14px;
+    font-family: "Gilroy", sans-serif;
+    line-height: 26px;
+}
+
+#timetable-container #timetable .day .table .table-line .table-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#timetable-container #timetable .day .table .table-line:hover {
+    background-color: #9F2546;
+    color: white;
+}
+
+#timetable-container #timetable .day .table .table-line .table-time {
+    display: inline-block;
+    width: 45px;
+    padding-right: 50px;
+    padding-left: 8px;
+}
+
+#timetable-container #timetable .day .table .table-line .table-direction {
+    display: inline-block;
+    width: 110px;
+    padding-right: 80px;
+}
+#timetable-container #timetable .day .table .table-line .table-name {
+    display: inline-block;
+    width: 105px;
+    padding-right: 100px;
+}
+
+#timetable-container #timetable .day .table .table-line .table-level {
+    display: inline-block;
+    width: 135px;
+    padding-right: 10px;
+}
+
+#timetable-container #timetable form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 720px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+#timetable-container #timetable form input {
+    border: none;
+    border-bottom: 1px solid #9F2546;
+    width: 255px;
+    font-size: 14px;
+    font-family: "Gilroy",sans-serif;
+    color: rgb(58, 4, 19);
+    line-height: 1.357;
+    text-align: left;
+    padding-bottom: 7px;
+    margin-bottom: 2px;
+}
+
+#timetable-container #timetable form .field {
+    margin: 50px;
+    height: 45px;
+}
+
+#timetable-container #timetable form input:focus {
+    outline: none;
+}
+
+.error-input {
+    display: none;
+    padding-left: 2px;
+    color: red;
+    font-size: 12px;
+    font-family: "Gilroy",sans-serif;
+}
+
+.small {
+    display: none!important;
+}
+
+#reservation #reserv-sent #reserv-cancel:hover {
+    cursor: pointer;
+}
+
+#timetable-container #timetable #reserv-sent {
+    display: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#timetable-container #timetable #order-call {
+    display: none;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#timetable-container #timetable #order-call form {
+    display: flex;
+    height: 150px;
+    width: 300px;
+    align-items: center;
+}
+
+#timetable-container #timetable #order-call form .field-phone {
+    height: 50px;
+}
+
+
+
+

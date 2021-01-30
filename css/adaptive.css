@@ -1,0 +1,711 @@
+@media screen and (min-width: 1921px){
+    #main {
+        background-size: 100%;
+        background-position: bottom center;
+    }
+
+    #main #container #container-block {
+        margin-top: 90px;
+    }
+
+    #contacts-container {
+        right: 55%;
+    }
+}
+/*1024 - 1199*/
+@media screen and (max-width: 1199px) {
+    #header, #container, #description, #providers, #directions, #halls-container, #footer-container {
+        width: 100%;
+        padding-right: 30px;
+        padding-left: 30px;
+        box-sizing: border-box;
+    }
+
+    #providers #providers-slider {
+        width: 95%;
+    }
+
+    #main #header #menu {
+        justify-content: space-around;
+    }
+
+    #container #container-img {
+        max-width: 500px;
+        margin-top: 120px;
+    }
+
+    #description-container-img {
+        max-width: 420px;
+        max-height: 420px;
+    }
+
+    #description-container-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #container #container-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .direction {
+        margin-bottom: 20px;
+    }
+
+    .direction-img {
+        max-width: 230px;
+        max-height: 230px;
+    }
+
+    .direction-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #container #container-block {
+        margin-top: 50px;
+    }
+
+    #contacts-container {
+        right: 60%;
+    }
+
+    #footer-container {
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #footer #footer-container .footer-logo {
+        order: 1;
+    }
+
+    #footer #footer-container .footer-privacy {
+        order: 3;
+        width: 55%;
+        margin: 0 auto;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+
+    #footer #footer-container .footer-number {
+        order: 2;
+    }
+
+    #timetable-container #timetable {
+        top: 25px;
+    }
+
+}
+/*768 - 1023*/
+@media screen and (max-width: 1023px) {
+
+    #header, #container, #description, #providers, #directions, #halls-container, #footer-container {
+        width: 95%;
+    }
+
+    #header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #main #header .logo {
+        order: 1;
+        margin-right: 40px;
+    }
+
+    #main #header #menu {
+        order: 3;
+        margin-top: 30px;
+        width: 85%;
+    }
+
+    #main #header #header-btn {
+        order: 2;
+    }
+
+    #container #container-block h1 {
+        font-size: 35px;
+    }
+
+    #container #container-block #container-text {
+        width: 300px;
+    }
+
+    #container #container-img {
+        margin-left: 0;
+    }
+
+    #description-container-text-title {
+        margin-top: 50px;
+    }
+
+    #description-prop {
+        justify-content: space-between;
+    }
+
+    #description-container-img {
+        margin: 0 50px 50px 50px;
+    }
+
+    #providers #providers-slider .provider-img {
+        max-width: 280px;
+        max-height: 280px;
+    }
+
+    #providers #providers-slider .provider-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #directions #directions-main {
+        width: 75%;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+
+    #halls-container #halls .hall {
+        max-width: 300px;
+    }
+
+    #halls-container #halls .hall .hall-img {
+        max-width: 300px;
+    }
+
+    #halls-container #halls .hall .hall-img img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    #halls-container #halls .hall .hall-text {
+        max-width: 300px;
+    }
+
+    #contacts-container {
+        right: 50%;
+    }
+
+    #timetable-container #timetable {
+        width: 100%;
+        height: 100%;
+        top: 0;
+        overflow: scroll;
+    }
+
+    #timetable-container #timetable .week-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .week-main {
+        margin: 40px auto;
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+}
+
+/*580 - 767*/
+@media screen and (max-width: 767px) {
+
+    #header, #container, #description, #providers, #directions, #halls-container, #footer-container{
+        width: 100%;
+    }
+
+    #main #header #menu {
+        width: 90%;
+    }
+
+    #providers .providers_text {
+        width: 95%;
+    }
+
+    #providers #providers-slider .provider-img {
+        max-width: 260px;
+        max-height: 260px;
+    }
+
+    #providers #providers-slider {
+        width: 85%;
+    }
+
+    #desription-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #description-container-img {
+        max-width: 235px;
+        max-height: 235px;
+        margin: 0;
+    }
+
+    #description-container-text-title {
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #description-prop {
+        flex-wrap: wrap;
+        max-width: 455px;
+        height: 300px;
+        margin: 30px auto 0 auto;
+    }
+
+    #providers h2.block-title {
+        margin: 50px 0 36px 0;
+    }
+
+    #directions #directions-main {
+        width: 95%;
+        justify-content: space-around;
+    }
+
+    #directions h2.block-title {
+        margin: 50px 0 40px 0;
+    }
+
+    #halls-container h2.block-title {
+        margin-top: 50px;
+    }
+
+    #halls-container #halls {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    #map-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    #map {
+        position: static;
+        order: 2;
+    }
+
+    #contacts-container {
+        position: static;
+        width: 100%;
+    }
+
+    #map-container #contacts-container #contacts {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 400px;
+        margin-left: 0;
+        padding-left: 0;
+        box-sizing: border-box;
+    }
+
+    #map-container #contacts-container #contacts .contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #map-container #contacts-container #contacts h2.block-title {
+        width: 100%;
+        text-align: center;
+    }
+
+    #map-container #contacts-container #contacts h3 {
+        margin-top: 0;
+    }
+
+    #map-container #contacts-container #contacts .social {
+        margin-left: 20px;
+    }
+
+    #footer {
+        height: 200px;
+    }
+
+    #footer #footer-container .footer-logo {
+        margin: 20px 0;
+    }
+
+    #footer #footer-container .footer-privacy {
+        flex-wrap: wrap;
+    }
+
+    #timetable-container #timetable .day {
+        padding: 0 20px;
+    }
+
+    #timetable-container #timetable .week-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+
+    .week-main .week {
+        display: inline-block;
+    }
+
+    #timetable-container #timetable form {
+        width: 100%;
+        margin-top: 20px;
+        height: 250px;
+    }
+
+
+    #timetable-container #timetable form .field {
+        margin: 15px;
+    }
+
+    .week-main {
+        margin: 20px auto;
+        width: 95%;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .week-main .week {
+        display: inline-block;
+    }
+
+}
+
+@media screen and (max-width: 684px) {
+
+    #timetable-container #timetable .day {
+        padding: 0 20px;
+    }
+
+
+    #timetable-container #timetable h2.block-title {
+        margin-top: 80px;
+    }
+
+    #timetable-container #timetable .week-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .week-main .week {
+        display: inline-block;
+    }
+
+    #timetable-container #timetable .day {
+        height: 800px;
+    }
+
+    #timetable-container #timetable .day .table {
+        width: 100%;
+    }
+
+    #timetable-container #timetable .day .table .table-line {
+        width: 75%;
+        margin: 0 auto 10px auto;
+        justify-content: center;
+    }
+
+    #timetable-container #timetable .day .table .table-line .table-flex {
+        width: 55%;
+        justify-content: center;
+    }
+
+    #timetable-container #timetable .day .table .table-line .table-direction, #timetable-container #timetable .day .table .table-line .table-name, #timetable-container #timetable .day .table .table-line .table-level  {
+        padding-right: 0;
+        width: 135px;
+    }
+
+    .week-main {
+        margin: 0 auto;
+    }
+
+    .week-main .week {
+        display: none;
+    }
+
+    .small {
+        display: inline-block!important;
+        padding: 0 5px;
+    }
+}
+
+/*480 - 579*/
+@media screen and (max-width: 579px) {
+    #main #header #menu{
+        width: 100%;
+    }
+
+    #directions #directions-main {
+        justify-content: center;
+        width: 85%;
+    }
+
+    #map-container #contacts-container #contacts {
+        align-content: center;
+        height: 600px;
+    }
+
+    #map-container #contacts-container #contacts h3 {
+        margin-top: 20px;
+    }
+
+    #timetable-container #timetable h2.block-title {
+        margin-top: 80px;
+    }
+
+    #timetable-container #timetable .week-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .week-main .week {
+        display: inline-block;
+    }
+
+    #timetable-container #timetable .day .table {
+        width: 100%;
+    }
+
+    #timetable-container #timetable .day .table .table-line {
+        width: 90%;
+        margin: 0 auto 10px auto;
+        justify-content: center;
+    }
+
+    #timetable-container #timetable .day .table .table-line .table-time {
+        padding-right: 20px;
+    }
+
+    #timetable-container #timetable .day .table .table-line .table-flex {
+        width: 55%;
+        justify-content: center;
+    }
+
+    #timetable-container #timetable .day .table .table-line .table-direction, #timetable-container #timetable .day .table .table-line .table-name, #timetable-container #timetable .day .table .table-line .table-level  {
+        padding-right: 0;
+        width: 135px;
+    }
+
+    #timetable-container #timetable form {
+        width: 85%;
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    #timetable-container #timetable form .field {
+        margin: 15px;
+    }
+
+    .week-main {
+        margin: 0 auto;
+    }
+
+    .week-main .week {
+        display: none;
+    }
+
+    .small {
+        display: inline-block!important;
+        padding: 0 5px;
+    }
+
+}
+
+@media screen and (max-width: 440px) {
+
+    #main #header #header-btn {
+        margin-top: 20px;
+    }
+}
+
+/*320 - 479*/
+@media screen and (max-width: 479px) {
+
+    #header {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #burger-menu {
+        display: block;
+        margin-right: 10px;
+    }
+
+    #main #header #menu {
+        display: none;
+    }
+
+    #menu-close {
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        font-size: 30px;
+    }
+
+    #main #header #menu.menu-show {
+        display: block;
+        position: fixed;
+        background-color: rgb(254, 242, 242);
+        width: 55%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        margin: 0;
+        box-shadow: 0 0 0 9999px rgba(0,0,0, 0.8);
+        padding-top: 70px;
+        padding-left: 20px;
+    }
+
+    #main #header #menu .menu-link {
+        margin: 15px 0;
+    }
+
+    #container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #container #container-block {
+        order: 2;
+        margin-top: 0;
+        text-align: center;
+        justify-content: center;
+    }
+
+    #container #container-img {
+        margin-top: 20px;
+        order: 1;
+        max-width: 150px;
+    }
+
+    #container #container-block h1 {
+        font-size: 33px;
+    }
+
+    #container #container-block #container-text {
+        width: 260px;
+        margin: 40px auto;
+    }
+
+    #description-container-text-word {
+        text-align: center;
+    }
+
+    #description-prop {
+        height: 470px;
+        justify-content: center;
+    }
+
+    #providers #providers-slider .provider {
+        background-size: contain;
+    }
+
+    #providers #providers-slider .provider-img {
+        max-width: 210px;
+        max-height: 210px;
+    }
+
+    #directions .btn-pink {
+        width: 260px;
+    }
+
+    #halls-container #halls .hall, #halls-container #halls .hall .hall-text {
+        max-width: 255px;
+    }
+
+    #map {
+        height: 300px;
+    }
+
+    #footer {
+        height: 260px;
+    }
+
+    #footer #footer-container .footer-number {
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 80px;
+    }
+
+    #footer #footer-container .footer-privacy {
+        width: 90%;
+    }
+
+    #footer #footer-container .footer-privacy .privacy-title {
+        font-size: 10px;
+    }
+
+    #footer #footer-container .footer-number .btn-white {
+        margin-top: 15px;
+    }
+
+    #timetable-container #timetable h2.block-title {
+        margin-top: 80px;
+    }
+
+    #timetable-container #timetable .week-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .week-main .week {
+        display: inline-block;
+    }
+
+    #timetable-container #timetable .day {
+        height: 800px;
+    }
+
+    #timetable-container #timetable .day .table {
+        width: 100%;
+    }
+
+    #timetable-container #timetable .day .table .table-line {
+        width: 100%;
+        margin: 0 auto 10px auto;
+        justify-content: center;
+    }
+
+    #timetable-container #timetable .day .table .table-line .table-time {
+        padding-right: 20px;
+    }
+
+    #timetable-container #timetable .day .table .table-line .table-flex {
+        width: 55%;
+        justify-content: center;
+    }
+
+    #timetable-container #timetable .day .table .table-line .table-direction, #timetable-container #timetable .day .table .table-line .table-name, #timetable-container #timetable .day .table .table-line .table-level  {
+        padding-right: 0;
+        width: 135px;
+    }
+
+    #timetable-container #timetable form {
+        width: 100%;
+        margin-top: 20px;
+        height: 250px;
+    }
+
+    #timetable-container #timetable form .field {
+        margin: 15px;
+    }
+
+    .week-main {
+        margin: 0 auto;
+    }
+
+    .week-main .week {
+        display: none;
+    }
+
+    .small {
+        display: inline-block!important;
+        padding: 0 5px;
+    }
+
+}
+
